@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>35 Kangaroo Parade, Yallingup | Holiday Rental</title>
+  <meta name="description" content="Relax in Yallingup at 35 Kangaroo Parade — a beautiful holiday rental close to beaches, wineries, and trails. Enquire for availability and rates." />
+  <meta property="og:title" content="35 Kangaroo Parade, Yallingup | Holiday Rental" />
+  <meta property="og:description" content="Your Yallingup escape — enquire for availability and rates." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Go to top">
+        <span class="logo__mark">Y</span>
+        <span class="logo__text">35 Kangaroo Pde</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <div class="nav__menu" id="navMenu">
+          <a href="#gallery">Gallery</a>
+          <a href="#amenities">Amenities</a>
+          <a href="#rates">Rates</a>
+          <a href="#location">Location</a>
+          <a class="btn btn--small" href="#enquire">Enquire</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill">Yallingup • Margaret River Region</p>
+          <h1>Coastal escape at <span class="nowrap">35 Kangaroo Parade</span></h1>
+          <p class="lead">
+            A relaxed, family-friendly holiday rental close to beaches, wineries, and walking trails.
+            Perfect for weekends away or longer stays.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#enquire">Check availability</a>
+            <a class="btn btn--ghost" href="#gallery">View photos</a>
+          </div>
+
+          <div class="highlights">
+            <div class="highlight">
+              <div class="highlight__title">Sleeps</div>
+              <div class="highlight__value">X</div>
+              <div class="highlight__note">Update me</div>
+            </div>
+            <div class="highlight">
+              <div class="highlight__title">Bedrooms</div>
+              <div class="highlight__value">X</div>
+              <div class="highlight__note">Update me</div>
+            </div>
+            <div class="highlight">
+              <div class="highlight__title">Bathrooms</div>
+              <div class="highlight__value">X</div>
+              <div class="highlight__note">Update me</div>
+            </div>
+            <div class="highlight">
+              <div class="highlight__title">Parking</div>
+              <div class="highlight__value">✓</div>
+              <div class="highlight__note">Off-street</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media" aria-label="Property hero image">
+          <!-- Replace with your real hero image -->
+          <div class="photo photo--hero">
+            <div class="photo__label">Add your hero photo here</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST / KEY SELL -->
+    <section class="band">
+      <div class="container band__grid">
+        <div class="band__item">
+          <h3>Prime Yallingup base</h3>
+          <p>Easy access to beaches, wineries, caves, and the Cape to Cape Track.</p>
+        </div>
+        <div class="band__item">
+          <h3>Unwind, entertain</h3>
+          <p>Indoor-outdoor living, space to cook, dine, and recharge after the day’s adventures.</p>
+        </div>
+        <div class="band__item">
+          <h3>Easy booking</h3>
+          <p>Enquire direct for best rates and flexible stays (subject to availability).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <h2>Gallery</h2>
+          <p>Swap these placeholders for your real images (recommended: 1600px wide).</p>
+        </div>
+
+        <div class="gallery">
+          <!-- Replace each .photo with <img src="..." alt="..."> -->
+          <div class="photo"><div class="photo__label">Living</div></div>
+          <div class="photo"><div class="photo__label">Kitchen</div></div>
+          <div class="photo"><div class="photo__label">Main bedroom</div></div>
+          <div class="photo"><div class="photo__label">Bathroom</div></div>
+          <div class="photo"><div class="photo__label">Outdoor dining</div></div>
+          <div class="photo"><div class="photo__label">Surrounds</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AMENITIES -->
+    <section class="section section--alt" id="amenities">
+      <div class="container">
+        <div class="section__head">
+          <h2>Amenities</h2>
+          <p>Edit this list to match the property (I’ve included common holiday-rental items).</p>
+        </div>
+
+        <div class="amenities">
+          <div class="card">
+            <h3>Comfort</h3>
+            <ul>
+              <li>Air conditioning / heating</li>
+              <li>Quality linens & towels</li>
+              <li>Washer + dryer</li>
+              <li>Iron + ironing board</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Kitchen</h3>
+            <ul>
+              <li>Fully equipped kitchen</li>
+              <li>Coffee machine / plunger</li>
+              <li>Dishwasher</li>
+              <li>BBQ / outdoor cooking</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Family</h3>
+            <ul>
+              <li>High chair / cot (if available)</li>
+              <li>Board games</li>
+              <li>Books</li>
+              <li>Child-friendly dining</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Stay Connected</h3>
+            <ul>
+              <li>Wi-Fi</li>
+              <li>Smart TV / streaming</li>
+              <li>Dedicated workspace (optional)</li>
+              <li>Self check-in</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>House rules (example):</strong> No parties. Respect quiet hours. No smoking indoors.
+          Pets by request (if applicable).
+        </div>
+      </div>
+    </section>
+
+    <!-- RATES -->
+    <section class="section" id="rates">
+      <div class="container">
+        <div class="section__head">
+          <h2>Rates & Stays</h2>
+          <p>Set your actual pricing here. This is a simple layout that looks great on mobile.</p>
+        </div>
+
+        <div class="rates">
+          <div class="rate card">
+            <h3>Standard</h3>
+            <p class="price">$___ <span>/ night</span></p>
+            <ul>
+              <li>Min stay: __ nights</li>
+              <li>Cleaning fee: $___</li>
+              <li>Security bond: $___</li>
+            </ul>
+          </div>
+
+          <div class="rate card">
+            <h3>Peak (School hols / Summer)</h3>
+            <p class="price">$___ <span>/ night</span></p>
+            <ul>
+              <li>Min stay: __ nights</li>
+              <li>Cleaning fee: $___</li>
+              <li>Security bond: $___</li>
+            </ul>
+          </div>
+
+          <div class="rate card">
+            <h3>Weekly</h3>
+            <p class="price">$___ <span>/ week</span></p>
+            <ul>
+              <li>Best value for longer stays</li>
+              <li>Mid-stay clean (optional)</li>
+              <li>Seasonal discounts (optional)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ctaStrip">
+          <div>
+            <h3>Want the best rate?</h3>
+            <p>Enquire direct and I’ll confirm availability and total price quickly.</p>
+          </div>
+          <a class="btn" href="#enquire">Enquire now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section section--alt" id="location">
+      <div class="container">
+        <div class="section__head">
+          <h2>Location</h2>
+          <p>35 Kangaroo Parade, Yallingup, WA</p>
+        </div>
+
+        <div class="locationGrid">
+          <div class="card">
+            <h3>Nearby highlights</h3>
+            <ul>
+              <li>Yallingup Beach & lagoon swims</li>
+              <li>Wineries & cellar doors</li>
+              <li>Caves & coastal lookouts</li>
+              <li>Margaret River food trail</li>
+              <li>Cape to Cape Track access</li>
+            </ul>
+            <p class="small">Tip: Replace the above with your favourite “local picks”.</p>
+          </div>
+
+          <div class="mapWrap" aria-label="Map">
+            <!-- Simple Google Maps embed by query (no API key needed) -->
+            <iframe
+              title="Map to 35 Kangaroo Parade, Yallingup"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=35%20Kangaroo%20Parade%20Yallingup%20WA&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENQUIRY -->
+    <section class="section" id="enquire">
+      <div class="container">
+        <div class="section__head">
+          <h2>Enquire</h2>
+          <p>Send dates + guest count and I’ll confirm availability. (Form works on Netlify instantly.)</p>
+        </div>
+
+        <div class="enquiryGrid">
+          <form class="card form" name="enquiry" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="enquiry" />
+            <div class="form__row">
+              <label>
+                Name
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label>
+                Check-in
+                <input type="date" name="checkin" required />
+              </label>
+              <label>
+                Check-out
+                <input type="date" name="checkout" required />
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label>
+                Guests
+                <input type="number" name="guests" min="1" placeholder="e.g. 4" required />
+              </label>
+              <label>
+                Phone (optional)
+                <input name="phone" autocomplete="tel" />
+              </label>
+            </div>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Any questions, special requests, kids/pets, etc."></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send enquiry</button>
+            <p class="small">
+              Prefer email? Use <a href="mailto:YOUR_EMAIL@example.com?subject=Enquiry%20-%2035%20Kangaroo%20Pde%20Yallingup">YOUR_EMAIL@example.com</a>
+            </p>
+          </form>
+
+          <div class="card">
+            <h3>Booking info</h3>
+            <ul>
+              <li>Check-in: __:__pm (self check-in)</li>
+              <li>Check-out: __:__am</li>
+              <li>Cleaning: included / add-on</li>
+              <li>Bond: refundable (subject to inspection)</li>
+            </ul>
+
+            <hr />
+
+            <h3>Owner / Host</h3>
+            <p class="small">
+              Add your preferred contact details here (phone, email, Instagram, Airbnb link, etc.).
+            </p>
+
+            <div class="social">
+              <a class="btn btn--ghost btn--small" href="#" aria-label="Airbnb link">Airbnb</a>
+              <a class="btn btn--ghost btn--small" href="#" aria-label="Instagram link">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> 35 Kangaroo Parade, Yallingup</p>
+      <p class="small">Built for direct bookings • Privacy-friendly • Fast on mobile</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
